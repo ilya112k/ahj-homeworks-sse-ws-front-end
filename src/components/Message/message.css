@@ -1,0 +1,15 @@
+.essage-elem {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.message-elem_current-user .date-name {
+    color: rgb(232, 59, 93);
+}
+
+.message-elem_current-user {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}

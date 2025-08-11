@@ -1,0 +1,28 @@
+.modal-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1.5px solid gray;
+}
+
+.modal-input:focus {
+    outline: none;
+}
+
+.send-message-input {
+    color: gray;
+    font-size: 1.4rem;
+    padding: 15px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 1.5px solid gray;
+}
+
+.send-message-input::placeholder {
+    color: gray;
+}
+
+.send-message-input:focus {
+    outline: none;
+}

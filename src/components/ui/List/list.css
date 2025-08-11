@@ -1,0 +1,32 @@
+.list-users {
+    list-style: none;
+    padding: 0;
+}
+
+.list-user-elem {
+    font-size: 1.3rem;
+    color: gray;
+    display: flex;
+    width: 250px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.list-user-elem:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.list-user-elem_current-user {
+    color: rgb(232, 59, 93);
+}
+
+.list-user-elem::before {
+    content: '';
+    min-width: 20px;
+    min-height: 20px;
+    display: flex;
+    border: 1.5px solid gray;
+    border-radius: 50%;
+    margin-right: 10px;
+}

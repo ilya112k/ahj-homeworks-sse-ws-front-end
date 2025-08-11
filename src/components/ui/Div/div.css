@@ -1,0 +1,13 @@
+.modal-input-container {
+    width: 100%;
+}
+
+.conatiner {
+    display: flex;
+    align-items: start;
+    max-width: 1000px;
+    width: 100%;
+    transition: all 0.8s ease-out;
+    transform: translateY(100vh);
+    flex-direction: row-reverse;
+}

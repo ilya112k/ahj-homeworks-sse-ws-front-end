@@ -1,0 +1,15 @@
+.messages-list {
+    list-style: none;
+    padding: 0;
+}
+
+.date-name {
+    color: gray;
+    font-size: 1rem;
+}
+
+.messages-list-container {
+    max-height: 800px;
+    height: 100%;
+    overflow-y: scroll;
+}
